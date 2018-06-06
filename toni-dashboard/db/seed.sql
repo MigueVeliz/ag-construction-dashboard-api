@@ -1,0 +1,8 @@
+DROP TABLE If EXISTS fotos;
+
+CREATE TABLE fotos (
+	id BIGSERIAL PRIMARY KEY,
+	url VARCHAR NOT NULL,
+	description VARCHAR,
+	details VARCHAR
+);
